@@ -14,6 +14,9 @@ Windows: choco install ffmpeg
 ```
 python tts_edge.py --text "Hi! This is a demo of the Text-to-Speech script. It turns text into natural-sounding audio." --out demo.mp3 --voice en-US-GuyNeural
 ```
+```
+python tts_edge.py --text_file narration.txt --out demo.mp3 --voice en-US-GuyNeural
+```
 ### WAV output
 ```
 python tts_edge.py --text_file narration.txt --out narration.wav --voice en-US-JennyNeural --rate=-5%
